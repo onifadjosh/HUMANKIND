@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.wrapper{
+    perspective: 10px;
+}
+
+header{
+    transform-style: preserve-3d;
+}
+
+.img1{
+    transform: translateZ(-10px) scale(2);
+}
+
+/* .img2{
+    transform: translateZ(-5px) scale(1.5);
+} */
