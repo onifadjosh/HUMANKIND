@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="src/input.css">
 </head>
 <body>
-    <div class="wrapper h-[100vh] overflow-y-auto overflow-x-hidden">
-        <header class="h-full z-[-1] ">
+    <div class="wrapper  overflow-y-auto overflow-x-hidden">
+        <header class="h-full  ">
             <nav class="flex justify-between items-center py-3 px-[15px] mb-36">
                 <a href="#" class="flex items-center">
                     <img src="dist/images/img0.svg" alt="">
@@ -34,10 +34,11 @@
 
             <div class="flex justify-center items-center img1">
                 <div class="relative">
-                    <img src="dist/images/img0.png" alt="" class="absolute top-[-0.5rem] -z-10 ">
-                    <img src="dist/images/img1.png" alt="" srcset="" class="img2">
+                    <img src="dist/images/img0.png" alt="" id="img1" class="absolute top-[-0.5rem] -z-10">
+                    <img src="dist/images/img1.png" alt="" srcset="" class="">
                 </div>
             </div>
+
             <p class="font-normal text-[23px] leading-[23.25px] text-center mb-[33px]">Creating a magical world for the kid in all of us.</p>
 
             <div class="flex justify-center items-center gap-2 text-[16px] mb-4">
@@ -192,10 +193,10 @@
             </div>
         </section>
 
-        <section class="bg-[url('/dist/images/img5.png')] bg-cover bg-center font-normal ">
+        <section class="bg-[#000000] bg-cover bg-center font-normal ">
             <h1 class="text-[228px] text-[#FFFFFF] leading-[342px]">stayhuman</h1>
-            <div class="flex">
-
+            <div class="flex bg-[url('/dist/images/img5.png')] h-[100vh] bg-cover bg-center">
+                
                 <div class="bg-[#FFFFFF] ">
                     <img src="dist/images/img9.png" alt="" srcset="">
 
@@ -218,13 +219,13 @@
             </div>
         </section>
 
-        <section>
+        <section class="flex items-center gap-[28px] font-normal text-[#000000] mb-[90px]">
 
-            <img src="dist/images/img6.png" alt="" srcset="">
+            <img src="dist/images/img6.png" alt="" srcset="" class="basis-[70%]">
             <div>
-               <h1>Building together</h1> 
+               <h1 class=" text-[39px] leading-[46.5px] mb-[21px]">Building together</h1> 
 
-               <p>
+               <p class="text-[23px] leading-[34.88px] mb-[24px]">
                 Our mission is to <br>
                 entertain and inspire <br>
                 people all over the <br>
@@ -234,48 +235,55 @@
                 in web3.
                </p>
 
-               <a href="http://">Explore Careers</a>
+               <a href="http://" class="bg-transparent text-[#000000] leading-[23.25px] text-[16px] py-[18px] px-[26px] rounded-[46.5px] border-[3px] border-[#000000] hover:bg-[#333] hover:text-[#FFFFFF] ">Explore Careers</a>
             </div>
         </section>
 
-        <section>
-            <img src="dist/images/img10.png" alt="" srcset="">
-
+        <section class="flex flex-col justify-center items-center mb-[264px]">
             <div>
-                <h1>Join our adventure</h1>
+                <img src="dist/images/img10.png" alt="" srcset="" class="mb-[19px]">
+            </div>
 
-                <p>
+            <div class="flex justify-center items-center flex-col">
+                <h1 class="font-semibold text-[39px] leading-[46.5px] mb-[18px]">Join our adventure</h1>
+
+                <p class="text-center text-[23px] leading-[34.88px] mb-[24px]">
                     Despite the many evil forces in the world, there is hope. We can still make a <br>
                     positive difference through art and community. We’re looking for other geeks, <br>
                     punks, and freaks like us who believe in the power of storytelling to be a part <br>
                     of our quest.
                 </p>
 
-                <a href="http://">Join our Discord</a>
+                <a href="http://" class="bg-[#000000] font-bold text-[#FFFFFF] text-[14px] py-[18px] px-[26px] rounded-[46.5px] border-[3px] border-[#000000] hover:bg-[#333] ">Join our Discord</a>
             </div>
         </section>
 
-        <section>
+        <section class="flex justify-between px-[65px] items-center">
             <div>
-                <h1>humankind</h1>
+                <h1 class="font-bold text-[54px] leading-[59.68px] mb-[4px]">humankind</h1>
                 
-                <p>stay human. be kind.</p>
+                <p class="font-normal text-[19px] leading-[29.06px] mb-[30px]">stay human. be kind.</p>
 
-                <span>
+                <span class="mb-[32px]">
 
                 </span>
 
-                <div>
-                    <a href="http://">Mint Now</a>
-                    <a href="http://">Join our Discord</a>
+                <div class="flex gap-[6px] mb-[30px]">
+                    <a href="http://" class="bg-[#000000] font-bold text-[#FFFFFF] text-[14px] py-[11px] px-[18px] rounded-[46.5px] border-[3px] border-[#000000] hover:bg-[#333] ">Mint Now</a>
+                    <a href="http://" class="bg-transparent font-bold text-[#000000] leading-[23.25px] text-[14px] py-[11px] px-[18px] rounded-[46.5px] border-[3px] border-[#000000] hover:bg-[#333] hover:text-[#FFFFFF] ">Join our Discord</a>
                 </div>
 
-                <p>Humankind Industries Inc. 2022</p>
+                <p class="font-normal text-[11px] leading-[17.44px]">Humankind Industries Inc. 2022</p>
             </div>
 
             <img src="dist/images/img8.png" alt="" srcset="">
         </section>
+
+        <div class="my-[44px] ">
+            <p class="text-center text-[12px] leading-[17.44px] ">Powered by</p>
+        </div>
     </div>
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.5/gsap.min.js"></script>
 <script src="src/index.js"></script>
 </html>

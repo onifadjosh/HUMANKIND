@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-.wrapper{
+/* .wrapper{
     perspective: 10px;
 }
 
@@ -10,10 +10,21 @@ header{
     transform-style: preserve-3d;
 }
 
-.img1{
-    transform: translateZ(-10px) scale(2);
+img1{
+    will-change: transform;
+    transform: translate3d(0px, 1.2412rem, 0px) scale3d(0.96897, 0.96897, 1);
+    transform-style: preserve-3d;
 }
 
-/* .img2{
-    transform: translateZ(-5px) scale(1.5);
+.img2{
+    will-change: transform;
+    transform: translate3d(0px, 0.3103rem, 0px) scale3d(1.03103, 1.03103, 1);
+    transform-style: preserve-3d;
 } */
+
+
+#img1{
+    will-change: transform;
+    
+    transform-style: preserve-3d;
+}

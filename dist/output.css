@@ -541,12 +541,13 @@ video {
   left: 4rem;
 }
 
-.z-\[-1\] {
-  z-index: -1;
-}
-
 .-z-10 {
   z-index: -10;
+}
+
+.my-\[44px\] {
+  margin-top: 44px;
+  margin-bottom: 44px;
 }
 
 .mb-36 {
@@ -601,6 +602,38 @@ video {
   margin-bottom: 20px;
 }
 
+.mb-\[24px\] {
+  margin-bottom: 24px;
+}
+
+.mb-\[21px\] {
+  margin-bottom: 21px;
+}
+
+.mb-\[90px\] {
+  margin-bottom: 90px;
+}
+
+.mb-\[19px\] {
+  margin-bottom: 19px;
+}
+
+.mb-\[264px\] {
+  margin-bottom: 264px;
+}
+
+.mb-\[4px\] {
+  margin-bottom: 4px;
+}
+
+.mb-\[30px\] {
+  margin-bottom: 30px;
+}
+
+.mb-\[32px\] {
+  margin-bottom: 32px;
+}
+
 .flex {
   display: flex;
 }
@@ -611,6 +644,10 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.h-\[70vh\] {
+  height: 70vh;
 }
 
 .w-full {
@@ -667,6 +704,10 @@ video {
 
 .gap-\[111px\] {
   gap: 111px;
+}
+
+.gap-\[28px\] {
+  gap: 28px;
 }
 
 .overflow-y-auto {
@@ -787,6 +828,21 @@ video {
   padding-bottom: 37px;
 }
 
+.px-\[65px\] {
+  padding-left: 65px;
+  padding-right: 65px;
+}
+
+.py-\[11px\] {
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+
+.px-\[18px\] {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
 .pt-\[163px\] {
   padding-top: 163px;
 }
@@ -851,12 +907,28 @@ video {
   font-size: 228px;
 }
 
+.text-\[54px\] {
+  font-size: 54px;
+}
+
+.text-\[12px\] {
+  font-size: 12px;
+}
+
+.text-\[11px\] {
+  font-size: 11px;
+}
+
 .font-normal {
   font-weight: 400;
 }
 
 .font-bold {
   font-weight: 700;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
 
 .leading-\[23\.25px\] {
@@ -887,6 +959,18 @@ video {
   line-height: 342px;
 }
 
+.leading-\[59\.68px\] {
+  line-height: 59.68px;
+}
+
+.leading-\[29\.06px\] {
+  line-height: 29.06px;
+}
+
+.leading-\[17\.44px\] {
+  line-height: 17.44px;
+}
+
 .text-\[\#000000\] {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -897,21 +981,30 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.wrapper{
-  perspective: 10px;
+/* .wrapper{
+    perspective: 10px;
 }
 
 header{
+    transform-style: preserve-3d;
+}
+
+img1{
+    will-change: transform;
+    transform: translate3d(0px, 1.2412rem, 0px) scale3d(0.96897, 0.96897, 1);
+    transform-style: preserve-3d;
+}
+
+.img2{
+    will-change: transform;
+    transform: translate3d(0px, 0.3103rem, 0px) scale3d(1.03103, 1.03103, 1);
+    transform-style: preserve-3d;
+} */
+
+#img1{
+  will-change: transform;
   transform-style: preserve-3d;
 }
-
-.img1{
-  transform: translateZ(-10px) scale(2);
-}
-
-/* .img2{
-    transform: translateZ(-5px) scale(1.5);
-} */
 
 .hover\:bg-\[\#333\]:hover {
   --tw-bg-opacity: 1;
