@@ -25,6 +25,6 @@ img1{
 
 #img1{
     will-change: transform;
-    
+    transform: translateZ(2);
     transform-style: preserve-3d;
 }

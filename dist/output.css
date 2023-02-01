@@ -602,24 +602,24 @@ video {
   margin-bottom: 20px;
 }
 
-.mb-\[24px\] {
-  margin-bottom: 24px;
+.mb-\[90px\] {
+  margin-bottom: 90px;
 }
 
 .mb-\[21px\] {
   margin-bottom: 21px;
 }
 
-.mb-\[90px\] {
-  margin-bottom: 90px;
-}
-
-.mb-\[19px\] {
-  margin-bottom: 19px;
+.mb-\[24px\] {
+  margin-bottom: 24px;
 }
 
 .mb-\[264px\] {
   margin-bottom: 264px;
+}
+
+.mb-\[19px\] {
+  margin-bottom: 19px;
 }
 
 .mb-\[4px\] {
@@ -638,16 +638,8 @@ video {
   display: flex;
 }
 
-.h-\[100vh\] {
-  height: 100vh;
-}
-
 .h-full {
   height: 100%;
-}
-
-.h-\[70vh\] {
-  height: 70vh;
 }
 
 .w-full {
@@ -710,6 +702,10 @@ video {
   gap: 28px;
 }
 
+.gap-\[24px\] {
+  gap: 24px;
+}
+
 .overflow-y-auto {
   overflow-y: auto;
 }
@@ -766,16 +762,17 @@ video {
   background-image: url('/dist/images/bg1.jpg');
 }
 
-.bg-\[url\(\'\/dist\/images\/img5\.png\'\)\] {
-  background-image: url('/dist/images/img5.png');
-}
-
 .bg-cover {
   background-size: cover;
 }
 
 .bg-center {
   background-position: center;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .py-3 {
@@ -911,12 +908,12 @@ video {
   font-size: 54px;
 }
 
-.text-\[12px\] {
-  font-size: 12px;
-}
-
 .text-\[11px\] {
   font-size: 11px;
+}
+
+.text-\[12px\] {
+  font-size: 12px;
 }
 
 .font-normal {
@@ -1003,6 +1000,7 @@ img1{
 
 #img1{
   will-change: transform;
+  transform: translateZ(2);
   transform-style: preserve-3d;
 }
 
