@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="dist/output.css">
     <link rel="stylesheet" href="src/input.css">
     <script src="https://kit.fontawesome.com/54e86b48e4.js" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
 </head>
 <body>
     <div class="wrapper  overflow-y-auto overflow-x-hidden">
@@ -35,8 +35,8 @@
             </nav>
 
             <div class="flex justify-center items-center img1">
-                <div class="relative">
-                    <img src="dist/images/img0.png" alt="" id="img1" class="absolute top-[-0.5rem] -z-10">
+                <div class="relative box1">
+                    <img src="dist/images/img0.png" alt="" id="" class="absolute top-[-0.5rem] -z-10 img1">
                     <img src="dist/images/img1.png" alt="" srcset="" class="">
                 </div>
             </div>
@@ -195,28 +195,32 @@
             </div>
         </section>
 
-        <section class="bg-[#000000] bg-cover bg-center font-normal">
+        <section class="bg-[#000000]">
             <h1 class="text-[228px] font-bold text-[#FFFFFF] leading-[342px]">stayhuman</h1>
-            <div class="">
-                <img src="dist/images/img5.png" alt="" class="object-cover w-full">
-                <div class="bg-[#FFFFFF] ">
-                    <img src="dist/images/img9.png" alt="" srcset="">
 
-                    <h1>Humankind Studios</h1>
+            <div class="bg-[url('/dist/images/img5.png')] h-[100vh]  bg-cover bg-no-repeat bg-top ">
 
-                    <p>A creative studio designing the stories, world, and <br>
-                        brand of Humankind.
-                    </p>
-                </div>
-
-                <div class="bg-[#FFFFFF] ">
-                    <img src="dist/images/img11.png" alt="" srcset="">
-
-                    <h1>Humankind Fund</h1>
-
-                    <p>A fund that helps artists conceive their creations free <br>
-                        of economic dependencies.
-                    </p>
+                <div class=" flex  justify-center items-center h-full text-[#000000] gap-[16px]">
+                
+                    <div class="bg-[#FFFFFF] rounded-[16px]">
+                        <img src="dist/images/img9.png" alt="" srcset="" >
+    
+                        <h1 class="font-bold text-[32px] leading-[36.8px]">Humankind Studios</h1>
+    
+                        <p class="font-normal text-[16px] leading-[24px]">A creative studio designing the stories, world, and <br>
+                            brand of Humankind.
+                        </p>
+                    </div>
+    
+                    <div class="bg-[#FFFFFF] rounded-[16px]">
+                        <img src="dist/images/img11.png" alt="" srcset="" >
+    
+                        <h1 class="font-bold text-[32px] leading-[36.8px]">Humankind Fund</h1>
+    
+                        <p class="font-normal text-[16px] leading-[24px]">A fund that helps artists conceive their creations free <br>
+                            of economic dependencies.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -266,7 +270,7 @@
                 
                 <p class="font-normal text-[19px] leading-[29.06px] mb-[30px]">stay human. be kind.</p>
 
-                <span class="mb-[32px] flex gap-[24px] items-center">
+                <span class="mb-[36px] flex gap-[24px] items-center">
                     <i class="fa-brands fa-discord fa-2xl"></i>
                     <i class="fa-brands fa-twitter fa-2xl"></i>
                     <i class="fa-brands fa-instagram fa-2xl"></i>
@@ -290,6 +294,6 @@
         </div>
     </div>
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.0.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="src/index.js"></script>
 </html>

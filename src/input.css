@@ -23,8 +23,8 @@ img1{
 } */
 
 
-#img1{
-    will-change: transform;
-    transform: translateZ(2);
+div.img1{
+    transform: translateY(-10px) scaleZ(4);
+    transition: ease-in-out 0.3s;
     transform-style: preserve-3d;
 }
