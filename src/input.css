@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 #grow {
-    transform: scale(1);
+    transform: scale(0.9);
   }
   
   #shrink {
@@ -11,7 +11,7 @@
   }
 
   #grow2 {
-    transform: scale(0.8);
+    transform: scale(0.9);
   }
 
   #grow3 {

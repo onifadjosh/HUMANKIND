@@ -9,7 +9,7 @@ const growTl = gsap.timeline({
   });
   growTl.to("#grow", {
     duration: 1,
-    scale: 1.2
+    scale: 1.1
   });
   growTl.to("#grow-tagline", {
     duration: 0.4,
@@ -52,7 +52,7 @@ const growTl = gsap.timeline({
   });
   growT2.to("#grow2", {
     duration: 1,
-    scale: 1
+    scale: 1.1
   });
   growT2.to("#grow2-tagline", {
     duration: 0.4,
@@ -106,7 +106,7 @@ const growTl = gsap.timeline({
   });
   growT5.to("#grow5", {
     duration: 1,
-    scale: 1.2
+    scale: 1.1
   });
 
   const shrinkT2 = gsap.timeline({

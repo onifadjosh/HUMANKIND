@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 4px;
+    background-color:#000000;
+    margin: 5px auto;
+    border-radius: 4px ;
+    transition: all 0.3s ease-in-out;
+}
+
+.hamburger.active .bar:nth-child(1){
+    transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3){
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+.hamburger.active .bar:nth-child(2){
+    opacity: 0;
+}
+
+@media screen and (max-width:800px) {
+.navMenu{
+    position: fixed;
+    top: -100%;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+    background-color: #ffffff;
+    transition: all 0.3s ease-in-out;
+    z-index: 10;
+    text-align: center;
+}
+    .burn>a{
+        width: 100%;
+    }
+
+    .navMenu.active{
+        position: fixed;
+        top: 10%;
+        right: 0%;
+
+    }
+
+    .hamburger.active{
+        position: absolute;
+        top: 2%;
+        right: 3%;
+        z-index: 15;
+    }
+}
