@@ -738,6 +738,10 @@ video {
   gap: 24px;
 }
 
+.gap-\[1rem\] {
+  gap: 1rem;
+}
+
 .overflow-y-auto {
   overflow-y: auto;
 }
@@ -900,6 +904,11 @@ video {
   padding-right: 18px;
 }
 
+.px-\[23px\] {
+  padding-left: 23px;
+  padding-right: 23px;
+}
+
 .pb-8 {
   padding-bottom: 2rem;
 }
@@ -988,6 +997,14 @@ video {
   font-size: 12px;
 }
 
+.text-\[24px\] {
+  font-size: 24px;
+}
+
+.text-\[30px\] {
+  font-size: 30px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1046,6 +1063,14 @@ video {
 
 .leading-\[17\.44px\] {
   line-height: 17.44px;
+}
+
+.leading-\[30px\] {
+  line-height: 30px;
+}
+
+.leading-\[37px\] {
+  line-height: 37px;
 }
 
 .text-\[\#000000\] {
@@ -1149,6 +1174,10 @@ video {
     gap: 92px;
   }
 
+  .md\:gap-\[111px\] {
+    gap: 111px;
+  }
+
   .md\:rounded-\[46\.5px\] {
     border-radius: 46.5px;
   }
@@ -1156,6 +1185,11 @@ video {
   .md\:px-\[40px\] {
     padding-left: 40px;
     padding-right: 40px;
+  }
+
+  .md\:px-\[39px\] {
+    padding-left: 39px;
+    padding-right: 39px;
   }
 
   .md\:pb-0 {
@@ -1188,6 +1222,18 @@ video {
 
   .md\:text-\[17px\] {
     font-size: 17px;
+  }
+
+  .md\:text-\[43px\] {
+    font-size: 43px;
+  }
+
+  .md\:leading-\[52\.08px\] {
+    line-height: 52.08px;
+  }
+
+  .md\:leading-\[46\.5px\] {
+    line-height: 46.5px;
   }
 }
 
