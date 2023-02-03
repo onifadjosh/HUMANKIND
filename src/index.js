@@ -1,17 +1,96 @@
-// let Img1 = document.getElementById('img1');
+const growTl = gsap.timeline({
+    scrollTrigger: {
+      trigger: "#grow",
+      scrub: 1.5,
+      start: "top center",
+      end: "+=400",
+      ease: "power1.out"
+    }
+  });
+  growTl.to("#grow", {
+    duration: 1,
+    scale: 1
+  });
+  growTl.to("#grow-tagline", {
+    duration: 0.4,
+    delay: -0.7,
+    opacity: 1,
+    y: 0
+  });
+  
+  const shrinkTl = gsap.timeline({
+    scrollTrigger: {
+      trigger: "#shrink",
+      scrub: 1.5,
+      start: "top center",
+      end: "+=400",
+      ease: "power1.in"
+    }
+  });
+  
+  shrinkTl.to("#shrink", {
+    duration: 2,
+    scale: 0.8,
+    filter: "blur(0px)"
+  });
+  shrinkTl.to("#shrink-tagline", {
+    duration: 0.4,
+    delay: -0.7,
+    opacity: 1,
+    y: 0,
+    ease: "power2.out"
+  });
 
-// window.addEventListener('scroll', ()=>{
-//     window.scrollY;
-//     Img1.style.t
-// })
+  const growT2 = gsap.timeline({
+    scrollTrigger: {
+      trigger: "#grow2",
+      scrub: 1.5,
+      start: "top center",
+      end: "+=400",
+      ease: "power1.out"
+    }
+  });
+  growT2.to("#grow2", {
+    duration: 1,
+    scale: 1
+  });
+  growT2.to("#grow2-tagline", {
+    duration: 0.4,
+    delay: -0.7,
+    opacity: 1,
+    y: 0
+  });
 
-// $(function(){
-//     $(window).scroll(function(){
-//         if($(this).scrollTop() > 70){
-//             $('div').addClass('img1');
-//         }
-//         else{
-//             $('div').removeClass('img1');
-//         }
-//     });
-// });
+  const growT3 = gsap.timeline({
+    scrollTrigger: {
+      trigger: "#grow3",
+      scrub: 1.5,
+      start: "top center",
+      end: "+=400",
+      ease: "power1.out"
+    }
+  });
+  growT3.to("#grow3", {
+    duration: 1,
+    scale: 1
+  });
+  growT3.to("#grow3-tagline", {
+    duration: 0.4,
+    delay: -0.7,
+    opacity: 1,
+    y: 0
+  });
+
+  const growT4 = gsap.timeline({
+    scrollTrigger: {
+      trigger: "#grow3",
+      scrub: 1.5,
+      start: "top center",
+      end: "+=400",
+      ease: "power1.out"
+    }
+  });
+  growT4.to("#grow3", {
+    duration: 1,
+    scale: 1
+  });

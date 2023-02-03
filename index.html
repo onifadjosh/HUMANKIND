@@ -16,7 +16,7 @@
             <nav class="flex justify-between items-center py-3 px-[15px] mb-36">
                 <a href="#" class="flex items-center">
                     <img src="dist/images/img0.svg" alt="">
-                    <p class="font-normal text-[19px] ">humankind</p>
+                    <p class="font-bold text-[19px] ">humankind</p>
                 </a>
 
                 <div class="basis-[60%] flex justify-between font-bold text-[14px] text-[#000000]">
@@ -34,10 +34,10 @@
                 </div>
             </nav>
 
-            <div class="flex justify-center items-center img1">
+            <div class="flex justify-center items-center trans1">
                 <div class="relative box1">
-                    <img src="dist/images/img0.png" alt="" id="" class="absolute top-[-0.5rem] -z-10 img1">
-                    <img src="dist/images/img1.png" alt="" srcset="" class="">
+                    <img src="dist/images/img0.png" alt="" id="shrink" class="absolute top-[-0.5rem] -z-10" >
+                    <img src="dist/images/img1.png" alt="" id="grow" srcset="" class="">
                 </div>
             </div>
 
@@ -53,7 +53,7 @@
 
         <section class="mt-[209px]">
             <div class="flex justify-center items-center">
-                <img src="dist/images/img2.png" alt="" srcset="" class="">
+                <img src="dist/images/img2.png" alt="" srcset="" class="" id="grow2">
             </div>
 
             <div class="flex justify-center items-start gap-[92px]">
@@ -109,7 +109,7 @@
 
         <section class="bg-[url('/dist/images/bg1.jpg')] bg-center bg-cover pt-[163px] pb-[116px] flex justify-center">
 
-            <div class="bg-[#000000] pb-[59px] basis-[75%] rounded-[32px] relative pt-[198px] ">
+            <div class="bg-[#000000] pb-[59px] basis-[75%] rounded-[32px] relative pt-[198px] "  id="grow3">
 
                 <div class="flex flex-col justify-center items-center absolute top-[-4rem] left-[10rem]">
                 
@@ -178,7 +178,7 @@
                 <img src="dist/images/img4.png" alt="" srcset="">
             </div>
 
-            <div class="flex justify-center gap-[111px] font-normal text-[#000000]">
+            <div class="flex justify-center gap-[111px] font-normal text-[#000000] mb-[70px]">
                 <h1 class=" text-[39px] leading-[46.5px] ">Designing a universe</h1>
 
                 <div>
@@ -190,19 +190,19 @@
                         and community-driven storytelling.
                     </p>
 
-                    <a href="http://" class="bg-transparent text-[#000000] font-bold text-[16px] py-[18px] px-[26px] rounded-[46.5px] border-[3px] border-[#000000] hover:bg-[#333] hover:text-[#FFFFFF] ">Discover the Art</a>
+                    <a href="http://" class="bg-transparent text-[#000000] font-bold text-[16px] py-[18px] px-[26px] rounded-[46.5px] border-[3px] border-[#000000] hover:bg-[#333] hover:text-[#FFFFFF] mb-[30px]">Discover the Art</a>
                 </div>
             </div>
         </section>
 
-        <section class="bg-[#000000]">
-            <h1 class="text-[228px] font-bold text-[#FFFFFF] leading-[342px]">stayhuman</h1>
+        <section class="bg-[#000000] relative pt-[25vh] z-20">
+            <h1 class="text-[228px] font-bold text-[#FFFFFF] leading-[342px] absolute top-[-12%] left-[8%] -z-10">stayhuman</h1>
 
-            <div class="bg-[url('/dist/images/img5.png')] h-[100vh]  bg-cover bg-no-repeat bg-top ">
+            <div class="bg-[url('/dist/images/img5.png')] h-[100vh]  bg-cover bg-no-repeat bg-top z-0">
 
                 <div class=" flex  justify-center items-center h-full text-[#000000] gap-[16px]">
                 
-                    <div class="bg-[#FFFFFF] rounded-[16px]">
+                    <div class="bg-[#FFFFFF] rounded-[16px] p-[48px] border-[6px] border-[#000000]">
                         <img src="dist/images/img9.png" alt="" srcset="" >
     
                         <h1 class="font-bold text-[32px] leading-[36.8px]">Humankind Studios</h1>
@@ -212,7 +212,7 @@
                         </p>
                     </div>
     
-                    <div class="bg-[#FFFFFF] rounded-[16px]">
+                    <div class="bg-[#FFFFFF] rounded-[16px] p-[48px] border-[6px] border-[#000000] hover:ease-out transition-all">
                         <img src="dist/images/img11.png" alt="" srcset="" >
     
                         <h1 class="font-bold text-[32px] leading-[36.8px]">Humankind Fund</h1>
@@ -294,6 +294,8 @@
         </div>
     </div>
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+<script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script>
+<script src='https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js'></script>
 <script src="src/index.js"></script>
 </html>

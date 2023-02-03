@@ -2,29 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
-/* .wrapper{
-    perspective: 10px;
-}
+#grow {
+    transform: scale(0.8);
+  }
+  
+  #shrink {
+    transform: scale(1);
+  }
 
-header{
-    transform-style: preserve-3d;
-}
+  #grow2 {
+    transform: scale(0.8);
+  }
 
-img1{
-    will-change: transform;
-    transform: translate3d(0px, 1.2412rem, 0px) scale3d(0.96897, 0.96897, 1);
-    transform-style: preserve-3d;
-}
-
-.img2{
-    will-change: transform;
-    transform: translate3d(0px, 0.3103rem, 0px) scale3d(1.03103, 1.03103, 1);
-    transform-style: preserve-3d;
-} */
-
-
-div.img1{
-    transform: translateY(-10px) scaleZ(4);
-    transition: ease-in-out 0.3s;
-    transform-style: preserve-3d;
-}
+  #grow3 {
+    transform: scale(0.8);
+  }
