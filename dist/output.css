@@ -810,6 +810,10 @@ video {
   background-image: url('/dist/images/img5.png');
 }
 
+.bg-\[url\(\'\/dist\/images\/img6\.png\'\)\] {
+  background-image: url('/dist/images/img6.png');
+}
+
 .bg-cover {
   background-size: cover;
 }
@@ -1056,7 +1060,7 @@ video {
 }
 
 #grow {
-  transform: scale(0.8);
+  transform: scale(1);
 }
 
 #shrink {
@@ -1068,6 +1072,23 @@ video {
 }
 
 #grow3 {
+  transform: scale(0.8);
+}
+
+#grow4 {
+  transform: scale(0.8);
+}
+
+#grow5 {
+  transform: scale(1);
+  overflow-y: hidden;
+}
+
+#grow6 {
+  transform: scale(1);
+}
+
+#grow7 {
   transform: scale(0.8);
 }
 
