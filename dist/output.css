@@ -795,28 +795,16 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/dist\/images\/bg1\.jpg\'\)\] {
-  background-image: url('/dist/images/bg1.jpg');
+.bg-\[url\(\'\.\/images\/bg1\.jpg\'\)\] {
+  background-image: url('./images/bg1.jpg');
 }
 
 .bg-\[url\(\'\/dist\/images\/img5\.png\'\)\] {
   background-image: url('/dist/images/img5.png');
 }
 
-.bg-\[url\(\'dist\/images\/bg1\.jpg\'\)\] {
-  background-image: url('dist/images/bg1.jpg');
-}
-
-.bg-\[url\(\'\/images\/bg1\.jpg\'\)\] {
-  background-image: url('/images/bg1.jpg');
-}
-
-.bg-\[url\(\'\*\/images\/bg1\.jpg\'\)\] {
-  background-image: url('*/images/bg1.jpg');
-}
-
-.bg-\[url\(\'\.\/images\/bg1\.jpg\'\)\] {
-  background-image: url('./images/bg1.jpg');
+.bg-bg1 {
+  background-image: url('./images/bg1.png');
 }
 
 .bg-cover {
