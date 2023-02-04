@@ -136,7 +136,7 @@ const growTl = gsap.timeline({
   });
   growT6.to("#grow6", {
     duration: 1,
-    scale: 1.2
+    scale: 1.1
   });
 
   const growT7 = gsap.timeline({
