@@ -153,4 +153,17 @@ const growTl = gsap.timeline({
     scale: 1
   });
 
+  const growT8 = gsap.timeline({
+    scrollTrigger: {
+      trigger: "#grow8",
+      scrub: 1.5,
+      start: "top center",
+      end: "+=400",
+      ease: "power1.out"
+    }
+  });
+  growT8.to("#grow8", {
+    duration: 1,
+    scale: 1.1
+  });
   
