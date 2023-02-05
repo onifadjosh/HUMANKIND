@@ -533,8 +533,8 @@ video {
   top: -0.5rem;
 }
 
-.top-\[-14vw\] {
-  top: -14vw;
+.top-\[-13vw\] {
+  top: -13vw;
 }
 
 .left-\[0\%\] {
@@ -563,10 +563,6 @@ video {
 
 .left-0 {
   left: 0px;
-}
-
-.top-\[-13vw\] {
-  top: -13vw;
 }
 
 .z-\[99999\] {
@@ -1022,24 +1018,28 @@ video {
   text-align: start;
 }
 
-.text-end {
-  text-align: end;
-}
-
 .font-\[\'Roboto\'\] {
   font-family: 'Roboto';
+}
+
+.font-\[\'Lora\'\] {
+  font-family: 'Lora';
+}
+
+.font-\[Lora\] {
+  font-family: Lora;
 }
 
 .text-\[19px\] {
   font-size: 19px;
 }
 
-.text-\[14px\] {
-  font-size: 14px;
-}
-
 .text-\[16px\] {
   font-size: 16px;
+}
+
+.text-\[14px\] {
+  font-size: 14px;
 }
 
 .text-\[31px\] {
@@ -1193,6 +1193,10 @@ video {
 
 #grow8 {
   transform: scale(1);
+}
+
+.file\:font-bold::file-selector-button {
+  font-weight: 700;
 }
 
 .hover\:translate-x-3:hover {
@@ -1379,10 +1383,6 @@ video {
 
   .lg\:w-\[9rem\] {
     width: 9rem;
-  }
-
-  .lg\:basis-\[35\%\] {
-    flex-basis: 35%;
   }
 
   .lg\:flex-row {

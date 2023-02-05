@@ -11,12 +11,6 @@ const growTl = gsap.timeline({
     duration: 1,
     scale: 1.1
   });
-  growTl.to("#grow-tagline", {
-    duration: 0.4,
-    delay: -0.7,
-    opacity: 1,
-    y: 0
-  });
   
   const shrinkTl = gsap.timeline({
     scrollTrigger: {
@@ -33,13 +27,7 @@ const growTl = gsap.timeline({
     scale: 0.8,
     filter: "blur(0px)"
   });
-  shrinkTl.to("#shrink-tagline", {
-    duration: 0.4,
-    delay: -0.7,
-    opacity: 1,
-    y: 0,
-    ease: "power2.out"
-  });
+  
 
   const growT2 = gsap.timeline({
     scrollTrigger: {
@@ -54,12 +42,7 @@ const growTl = gsap.timeline({
     duration: 1,
     scale: 1.1
   });
-  growT2.to("#grow2-tagline", {
-    duration: 0.4,
-    delay: -0.7,
-    opacity: 1,
-    y: 0
-  });
+  
 
   const growT3 = gsap.timeline({
     scrollTrigger: {
@@ -74,12 +57,7 @@ const growTl = gsap.timeline({
     duration: 1,
     scale: 1
   });
-  growT3.to("#grow3-tagline", {
-    duration: 0.4,
-    delay: -0.7,
-    opacity: 1,
-    y: 0
-  });
+ 
 
   const growT4 = gsap.timeline({
     scrollTrigger: {
