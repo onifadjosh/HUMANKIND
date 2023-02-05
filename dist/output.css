@@ -1082,6 +1082,18 @@ video {
   font-size: 12px;
 }
 
+.text-\[28px\] {
+  font-size: 28px;
+}
+
+.text-\[15px\] {
+  font-size: 15px;
+}
+
+.text-\[13px\] {
+  font-size: 13px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -1271,6 +1283,10 @@ video {
     flex-basis: 90%;
   }
 
+  .md\:basis-\[35\%\] {
+    flex-basis: 35%;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -1385,6 +1401,10 @@ video {
     width: 9rem;
   }
 
+  .lg\:w-\[75\%\] {
+    width: 75%;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }
@@ -1445,6 +1465,10 @@ video {
 
   .xl\:flex-row {
     flex-direction: row;
+  }
+
+  .xl\:text-start {
+    text-align: start;
   }
 
   .xl\:text-end {
