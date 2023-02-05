@@ -1006,6 +1006,11 @@ video {
   padding-right: 18px;
 }
 
+.px-\[16px\] {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
 .pb-8 {
   padding-bottom: 2rem;
 }
@@ -1044,6 +1049,10 @@ video {
 
 .pb-\[2\.2rem\] {
   padding-bottom: 2.2rem;
+}
+
+.pr-\[16px\] {
+  padding-right: 16px;
 }
 
 .text-center {
@@ -1393,6 +1402,11 @@ video {
     padding-right: 39px;
   }
 
+  .md\:px-\[36px\] {
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+
   .md\:pb-0 {
     padding-bottom: 0px;
   }
@@ -1411,6 +1425,10 @@ video {
 
   .md\:pb-\[264px\] {
     padding-bottom: 264px;
+  }
+
+  .md\:pr-\[36px\] {
+    padding-right: 36px;
   }
 
   .md\:text-\[23px\] {
